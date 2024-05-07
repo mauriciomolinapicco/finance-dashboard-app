@@ -21,7 +21,7 @@ const daySchema = new Schema(
     {toJSON: {getters: true}}
 )
 
-const month = new Schema(
+const monthSchema = new Schema(
     {
         month: String,
         revenue:{ 
